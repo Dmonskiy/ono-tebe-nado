@@ -259,7 +259,7 @@ body {
 }
 
 .about {
- margin-top: 148px;   
+    margin-top: 148px;
 }
 
 .about__column {
@@ -340,7 +340,6 @@ body {
 .footer {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    align-items: center;
     padding: 181px 50px 88px;
     gap: 140px;
     align-items: flex-start;
