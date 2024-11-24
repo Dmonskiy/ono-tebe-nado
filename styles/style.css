@@ -96,7 +96,7 @@ body {
     gap: 20px;
 }
 
-.cover__title p {
+.cover__title span {
     font-size: 100px;
     font-weight: 700;
     line-height: 100%;
@@ -104,10 +104,10 @@ body {
 }
 
 .aligned-text {
- align-self: flex-start;
- line-height: 115%;
- position: relative;
- top: 9px;
+    align-self: flex-start;
+    line-height: 115%;
+    position: relative;
+    top: 9px;
 }
 
 .aligned-text_center {
@@ -123,11 +123,11 @@ body {
     left: 30px;
 }
 
-.letter-spacing-extended {
+.aligned-text .letter-spacing-extended {
     letter-spacing: 60px;
 }
 
-.no-letter-spacing {
+.aligned-text .no-letter-spacing {
     letter-spacing: 60px;
 }
 
