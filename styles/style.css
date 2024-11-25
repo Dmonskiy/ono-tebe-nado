@@ -50,7 +50,7 @@ body {
 .address {
     list-style-type: none;
     font-size: 18px;
-    line-height: 24.3px; 
+    line-height: 24.3px;
     letter-spacing: 0.18px;
     justify-self: center;
     position: relative;
@@ -301,39 +301,42 @@ body {
 
 .about__text {
     align-self: flex-start;
+    font-family: 'Raleway';
     color: #000;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px; /* 120% */
-    letter-spacing: 0.2px;
+    letter-spacing: 0.1px;
+    width: 688px;
 }
 
 .second__text {
     padding-top: 23px;
-    letter-spacing: normal;
+    letter-spacing: 0;
+    width: 690px;
 }
 
-.zero-letter.spacing {
-    letter-spacing: normal;
+.zero-letter_spacing {
+    letter-spacing: 0;
 }
 
-.zero-four-letter.spacing {
+.zero-four-letter_spacing {
     letter-spacing: 0.4px;
 }
 
-.minus-zero-two-letter.spacing {
+.minus-zero-two-letter_spacing {
     letter-spacing: -0.2px;
 }
 
-.zero-six-letter.spacing {
+.zero-six-letter_spacing {
     letter-spacing: 0.6px;
 }
 
-.zero-eight-letter.spacing {
+.zero-eight-letter_spacing {
     letter-spacing: 0.8px;
 }
 
-.zero-two-letter.spacing {
+.zero-two-letter_spacing {
     letter-spacing: 0.2px;
 }
 
