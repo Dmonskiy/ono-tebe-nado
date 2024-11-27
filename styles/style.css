@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    width: 100%;
 }
 
 .header {
@@ -301,8 +302,8 @@ body {
 
 .about__text {
     align-self: flex-start;
-    font-family: 'Raleway';
-    color: #000;
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #000; 
     font-size: 20px;
     font-weight: 400;
     line-height: 24px; /* 120% */
@@ -310,33 +311,33 @@ body {
     width: 688px;
 }
 
-.second__text {
+.about__text-second {
     padding-top: 23px;
     letter-spacing: 0;
     width: 690px;
 }
 
-.zero-letter_spacing {
+.zero-letter-spacing {
     letter-spacing: 0;
 }
 
-.zero-four-letter_spacing {
+.zero-four-letter-spacing {
     letter-spacing: 0.4px;
 }
 
-.minus-zero-two-letter_spacing {
+.minus-zero-two-letter-spacing {
     letter-spacing: -0.2px;
 }
 
-.zero-six-letter_spacing {
+.zero-six-letter-spacing {
     letter-spacing: 0.6px;
 }
 
-.zero-eight-letter_spacing {
+.zero-eight-letter-spacing {
     letter-spacing: 0.8px;
 }
 
-.zero-two-letter_spacing {
+.zero-two-letter-spacing {
     letter-spacing: 0.2px;
 }
 
