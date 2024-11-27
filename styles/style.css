@@ -303,7 +303,7 @@ body {
 .about__text {
     align-self: flex-start;
     font-family: 'Raleway', Arial, sans-serif;
-    color: #000; 
+    color: #000;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px; /* 120% */
