@@ -44,6 +44,7 @@
 }
 
 .address {
+	font-style: normal;
 	list-style-type: none;
 	font-size: 18px;
 	line-height: 24.3px;
@@ -287,25 +288,17 @@
 }
 
 .about__text {
-	align-self: flex-start;
+	padding-top: 77px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
 	font-family: 'Raleway', sans-serif;
 	color: #000;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 24px;
-	/* 120% */
-	letter-spacing: 0.1px;
+	letter-spacing: 0.2px;
 	width: 100%;
-}
-
-.about__text-first {
-	padding-top: 76px;
-}
-
-.about__text-second {
-	padding-top: 25px;
-	letter-spacing: 0;
-	max-width: 690px;
 }
 
 .footer {
