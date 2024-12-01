@@ -32,12 +32,6 @@
 	text-decoration: none;
 }
 
-/* .header__logo {
-	display: block;
-    position: relative;
-    left: 14px;
-} */
-
 .header__logo-image {
 	width: 148px;
 	height: 105px;
@@ -274,8 +268,6 @@
 .about__content {
 	display: flex;
 	flex-direction: column;
-	/* grid-template-rows: auto repeat(2, 1fr);
-    gap: 24px; */
 	gap: 24px;
 	padding-top: 100px;
 }
