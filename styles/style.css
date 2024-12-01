@@ -32,11 +32,11 @@
 	text-decoration: none;
 }
 
-.header__logo {
-	/* display: block;
+/* .header__logo {
+	display: block;
     position: relative;
-    left: 14px; */
-}
+    left: 14px;
+} */
 
 .header__logo-image {
 	width: 148px;
@@ -48,8 +48,7 @@
 	font-size: 18px;
 	line-height: 24.3px;
 	letter-spacing: 0.18px;
-	position: relative;
-	left: 185px;
+	padding-left: 185px;
 }
 
 .address a {
@@ -318,7 +317,7 @@
 }
 
 .address__footer {
-	position: static;
+	padding-left: 0px;
 }
 
 .footer__menu {
